@@ -1,0 +1,15 @@
+<html>
+<body>
+ <h1>location</h1>   
+<script>
+    let  url="http://geoplugin.net/json.gp";
+    async function getData(){
+   await fetch(url)
+    .then(response=>response.json())
+    .then(data=>console.log(data))
+  }
+  getData();
+</script>
+
+</body>
+</html>

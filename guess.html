@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale=1.0">
+    <title>guess</title>
+</head>
+<body>
+    <script>
+        var input= prompt("enter number from 1 to 100")
+        var ran = Math.random() * 100;
+        ran= Math.round(ran) 
+        if(ran == input)
+        {
+            alert("you are winner!!!!")
+        }
+        else{
+            alert(`you are looser, answer is ${ran}`)
+        }
+    </script>
+    
+</body>
+</html>
